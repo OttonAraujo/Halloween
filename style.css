@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&display=swap');
+#a{
+    font-family:Autour One, Arial;
+    background-color: rgb(63, 31, 1);
+    color: aliceblue;
+}
+body{
+    font-family:Autour One, Arial;
+    background-color: black;
+    color: rgb(202, 132, 2);
+    border-color: black;
+}
+section#inicio{
+    background-image: url(https://images6.alphacoders.com/874/874542.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    width: 100%;
+    height: 100vh;
+}
+*::-webkit-scrollbar{
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track{
+    width: 12px;
+    box-shadow: inset 0 0 .3rem #612400;
+    background-color: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: #6b1500;
+}
